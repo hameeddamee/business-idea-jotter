@@ -1,2 +1,2 @@
 # business-idea-jotter
-## A node MVCjotter app for business ideas
+ A node MVC jotter app for business ideas
