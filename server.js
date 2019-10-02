@@ -24,7 +24,8 @@ mongoose.Promise = global.Promise;
 // Connect to mongoose
 mongoose
   .connect(db.mongoURI, {
-    useMongoClient: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   })
   .then(() => console.log("MongoDB is Connected"))
   .catch(err => console.log(err));
